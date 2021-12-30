@@ -1,7 +1,6 @@
 @import "logica";
 
 .body{
-    background-color: rgb(238, 236, 236);
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     background-image: url(/img/19366.jpg);
@@ -200,7 +199,7 @@
                         }
 
                     
-                    
+                    }
                 }
             }
         }
@@ -485,15 +484,18 @@
             }
 
             .carrusel{
-        
-                &__imgH{
-                    height: 270px!important;
 
+                &__imgs_margins{
+
+                    & .carrusel__imgH{
+                        height: 270px !important;
+                    }
                     .w-25{
                         width: 40%!important;
                     }
                 }
             }
+        
 
             .productos{
                 margin-bottom:0;
@@ -565,17 +567,18 @@
             }
             
             .carrusel{
-        
-                &__imgH{
-                    height: 400px!important;
 
+                &__imgs_margins{
+
+                    & .carrusel__imgH{
+                        height: 400px !important;
+                    }
                     .w-25{
                         width: 40%!important;
                     }
                 }
             }
-            
-            
+
             .productos{
                 align-items: center;
         
@@ -633,7 +636,5 @@
                 display: flex;
                 flex-direction: column;
             }
-    
-            }
-
         }
+    
