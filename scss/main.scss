@@ -636,12 +636,102 @@
                 display: flex;
                 flex-direction: column;
             }
-<<<<<<< HEAD
         }
-    
-=======
-    
+
+        @media only screen and (min-width: 769px ) and (max-width: 1024px ){
+            
+            .carrusel{
+
+                &__imgs_margins{
+
+                    & .carrusel__imgH{
+                        height: 400px !important;
+                    }
+                    .w-25{
+                        width: 40%!important;
+                    }
+                }
+            }
+
+            .productos{
+                align-items: center;
+        
+                &__contenedor{
+                    width: $cien;
+                    display : flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+        
+                    &__tabla{
+                        width: $cien/2 !important;
+        
+                        &__align{
+        
+                            .elementos{
+                                width: 290px;
+                                margin: 30px auto;
+
+                                &__img{
+                                    width: 80%;
+                                    padding: auto !important;
+                                }
+                                
+                            }
+                            
+                            
+                        }
+                    }
+                }
             }
 
         }
->>>>>>> e7c7c2a70a1f67292f35798a6b7e50e1a0967046
+
+        @media only screen and (min-width: 1025px ) and (max-width: 1200px ){
+            
+            .carrusel{
+
+                &__imgs_margins{
+
+                    & .carrusel__imgH{
+                        height: 400px !important;
+                    }
+                    .w-25{
+                        width: 30%!important;
+                    }
+                }
+            }
+
+            .productos{
+                align-items: center;
+        
+                &__contenedor{
+                    width: $cien;
+                    display : flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+        
+                    &__tabla{
+                        width: $cien/4 !important;
+        
+                        &__align{
+        
+                            .elementos{
+                                width: 270px;
+                                margin: 30px auto;
+
+                                &__img{
+                                    width: 80%;
+                                    padding: auto !important;
+                                }
+                                
+                            }
+                            
+                            
+                        }
+                    }
+                }
+            }
+
+        }
